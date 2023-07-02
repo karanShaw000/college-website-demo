@@ -1,24 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
-
+import TeacherCarosel from "./components/TeacherCarosel";
+import CollegeCorosel from "./components/CollegeCorosel";
+import AboutUs from "./components/AboutUs";
+import Header from "./components/Header";
+import NoticeBoard from "./components/NoticeBoard";
+import Footer from "./components/Footer";
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Header />
+      <section className="my-4">
+        <CollegeCorosel />
+      </section>
+      <section className="lg:grid lg:grid-cols-2 lg:place-items-start">
+        <AboutUs />
+        <NoticeBoard />
+      </section>
+      <TeacherCarosel />
+      <Footer />
+    </>
   );
 }
 
