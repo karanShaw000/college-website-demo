@@ -1,3 +1,7 @@
-##hover effect on Teacher corasel
+## Technology Used:
 
-https://tailwindcss.com/docs/will-change
+# React,TailwindCss.
+
+## hover effect on Teacher corasel can be done in future
+
+## Navigation for mobile version not done
